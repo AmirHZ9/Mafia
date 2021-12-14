@@ -1,0 +1,23 @@
+* {
+  font-family: sans-serif;
+  outline: none;
+}
+.a {
+  background-color: #14213d;
+  color: #fff;
+  width: 250px;
+}
+.a:hover {
+  color: #fff;
+}
+
+.input:focus {
+  outline: none;
+}
+.bg {
+  color: #fff;
+  background-color: #14213d;
+  flex: 1;
+  max-width: 200px;
+  width: 200px;
+}

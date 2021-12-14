@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+  
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+}
+button{
+    background-color: #14213d;
+    color: #fff;
+    border: 1px solid   silver;
+    padding: 1rem;
+    margin: 5px;
+    width: 100px;
+    outline: none;
+    transition: 0.2s ease-in-out;
+    border-radius: 7px;
+}
+.confirm{
+    background-color: #14213d;
+    color: #fff;
+    width: 250px;
+    margin-bottom: 20px;
+}
+button:hover{
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.4);
+}
+.chooseshahrvand{
+    background-color: rgb(117, 206, 117);
+}
+.choosemafia{
+    background-color: red;
+}
+.deactive{
+    display: none;
+    
+  }
